@@ -1,0 +1,92 @@
+.button {
+    width: 220px;
+    height: 58px;
+    border: none;
+    background-color: var(--main-gray);
+    color: var(--main-white);
+    font-size: var(--main-fonts);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--second-gray);
+    color: var(--second-dark);
+}
+
+.button__technic {
+    margin: 10px 0;
+    max-width: 100%;
+    height: 40px;
+    background-color: var(--main-white);
+    color: var(--main-gray);
+    font-size: var(--main-small);
+}
+
+.button__plus {
+    border: none;
+    color: var(--main-dark);
+    background-color: var(--main-white);
+    font-size: var(--main-big);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button__plus p {
+    padding-left: 20px;
+}
+
+.button__plus:hover {
+    opacity: 0.8;
+}
+
+.buttom__plus_hide {
+    display: none;
+}
+
+.button__stock {
+    width: 260px;
+    font-size: var(--main-big);
+    font-weight: 600;
+    margin-left: 20px;
+    background-color: var(--main-white);
+    color: var(--main-gray);
+    height: 70px;
+}
+
+.button__stock:hover {
+    background-color: var(--main-gray);
+    color: var(--main-white);
+}
+
+.button__contacts {
+    max-width: 230px;
+    margin-left: 0;
+    padding: 20px 40px;
+    height: auto;
+    text-decoration: none;
+}
+
+.button__contacts:hover {
+    text-decoration: none;
+}
+
+.button__modal {
+    width: 100%;
+    margin: 20px 0 0 0;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 760px) {
+    .button__banner {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .button__stock {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+}

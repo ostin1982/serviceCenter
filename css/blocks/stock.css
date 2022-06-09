@@ -1,0 +1,45 @@
+.stock {
+    background: url('../../images/discount.webp') no-repeat center;
+    background-size: 100% 100%;
+    padding: 80px 0;
+    width: 100%;
+}
+
+.stock__block {
+    display: flex;
+}
+
+.stock__title {
+    color: var(--main-white);
+    font-size: var(--main-h1);
+    line-height: 1.16;
+    font-weight: 700;
+}
+
+.stock__subtitle {
+    color: var(--main-white);
+    font-size: var(--main-h3);
+    line-height: 1.16;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 969px) {
+    .stock__title {
+        text-align: center;
+    }
+
+    .stock__subtitle {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .stock__block {
+        display: block;
+        width: 100%;
+    }
+    
+    .stock__form {
+        flex-direction: column;
+    }
+}

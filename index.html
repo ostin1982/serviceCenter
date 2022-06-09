@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Сервисный центр</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="uk-container">
+            <div class="uk-text-center" uk-grid>
+                <div class="uk-width-auto">
+                    <div class="">
+                        <div class="uk-flex uk-flex-middle">
+                            <img src="images/logo.svg" class="header__logo" alt="logo">
+                            <p class="uk-margin-remove-top uk-margin-remove-left uk-margin-remove-right header__text">Сервисный<br>центр</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-expand header__block">
+                    <span uk-icon="icon: menu; ratio: 1.8" class="header__burger header__burger_active"></span>
+                    <span uk-icon="icon: close; ratio: 1.8" class="header__close"></span>
+                    <ul class="uk-list uk-flex uk-flex-between uk-flex-middle uk-margin-top header__list">
+                        <li class="uk-margin-remove header__li">
+                            <a href="#technic" class="header__title" uk-scroll>Вид техники</a>
+                        </li>
+                        <li class="uk-margin-remove header__li">
+                            <a href="#stock" class="header__title" uk-scroll>Акция</a>
+                        </li>
+                        <li class="uk-margin-remove header__li">
+                            <a href="#examples" class="header__title" uk-scroll>Примеры работы</a>
+                        </li>
+                        <li class="uk-margin-remove header__li">
+                            <a href="#reviews" class="header__title" uk-scroll>Отзывы</a>
+                        </li>
+                        <li class="uk-margin-remove header__li">
+                            <a href="#contacts" class="header__title" uk-scroll>Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-width-auto uk-flex uk-flex-middle header__block">
+                    <div class="uk-flex uk-flex-middle">
+                        <a href="tel: +74951378114" class="header__number">+7 495 137-81-14</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="uk-container">
+                <div class="uk-text-center" uk-grid>
+                    <div class="uk-width-expand@m">
+                        <div class="uk-flex uk-flex-center uk-flex-top banner__box">
+                            <h1 class="banner__heading">Сервис по ремонту техники</h1>
+                            <ul class="uk-list uk-flex uk-flex-center uk-flex-top banner__list">
+                                <li class="banner__link">Бесплатная диагностика на выезде</li>
+                                <li class="banner__link">Выезд за 30 мин.</li>
+                                <li class="banner__link">Низкие цены от 270 руб.</li>
+                            </ul>
+                            <form action="" class="uk-flex uk-flex-between uk-flex-middle banner__form">
+                                <div class="banner__block">
+                                    <h4 class="uk-margin-remove banner__title">Скидка 20%</h4>
+                                    <p class="uk-margin-remove banner__subtitle">при заказе с сайта</p>
+                                </div>
+                                <input type="tel" class="input input__banner js-phone" placeholder="Телефон">
+                                <button class="button button__banner">Заказать ремонт</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-3@m">
+                        <div class="">
+                            <img src="images/photo/master.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="technic" class="technic">
+            <div class="uk-container">
+                <h2 class="uk-margin-remove-top uk-margin-remove-left uk-margin-remove-right technic__heading">Выберите вид техники</h2>
+                <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-match uk-margin-large-top" uk-grid>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Стиральные машины</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/stir.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Посудомоечные машины</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/posud.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Сушильные машины</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/sush.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Холодильники</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/hol.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Кофемашины</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/kof.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Электроплиты</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/plit.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Духовые шкафы</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/duch.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Варочные панели</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/pan.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Водонагреватели</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/vod.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Кондиционеры</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/kond.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Установка техники</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/ust.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Пылесосы</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/pil.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Телевизоры</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/tel.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Мониторы</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/mon.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Ноутбуки</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/nout.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Проекторы</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/proekt.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card">
+                            <h3 class="technic__title">Планшеты</h3>
+                            <div class="uk-flex uk-flex-bottom">
+                                <img src="images/photo/plansh.png" class="technic__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technic__block">
+                        <div class="uk-flex uk-flex-between technic__card technic__card_color">
+                            <h3 class="technic__title technic__title_color">Другая техника</h3>
+                            <p class="uk-margin-remove technic__subtitle technic__subtitle_bold">Не нашли нужную технику</p>
+                            <p class="uk-margin-remove technic__subtitle">Проконсультируйтесь с нашим специалистом</p>
+                            <div class="uk-flex uk-flex-bottom">
+                                <form action="" class="technic__form">
+                                    <input type="tel" class="input input__technic js-phone" placeholder="Телефон">
+                                    <button class="button button__technic">Заказать консультацию</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex uk-flex-center uk-flex-middle uk-margin-large-top">
+                    <button class="uk-flex uk-flex-center uk-flex-middle button__plus js-click">
+                        <span uk-icon="icon: plus; ratio: 1.1"></span>
+                        <p class="uk-margin-remove">Показать всё</p>
+                    </button>
+                    <button class="uk-flex uk-flex-center uk-flex-middle button__plus buttom__plus_hide js-hide">
+                        <span uk-icon="icon: minus; ratio: 1.1"></span>
+                        <p class="uk-margin-remove">Скрыть всё</p>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="uk-container">
+                <h2 class="advantages__heading">Что вы получите?</h2>
+                <div class="uk-grid-medium uk-child-width-expand@m uk-text-center" uk-grid>
+                    <div class="uk-flex uk-flex-middle advantages__card">
+                        <img src="images/icon/a3754513b60165dbe6d9.svg" class="advantages__svg" alt="">
+                        <div class="advantages__text">
+                            <p class="uk-margin-remove advantages__title">Качественный Ремонт</p>
+                            <p class="uk-margin-remove advantages__subtitle">Все наши мастера с квалификацией</p>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle advantages__card">
+                        <img src="images/icon/1d390e026793627f08f6.svg" class="advantages__svg" alt="">
+                        <div class="advantages__text">
+                            <p class="uk-margin-remove advantages__title">Бесплатную диагностику</p>
+                            <p class="uk-margin-remove advantages__subtitle">Выезжаем за 30 мин. и проводим бесплатную диагностику</p>
+                        </div>
+                    </div>
+                    <div class="uk-flex uk-flex-middle advantages__card">
+                        <img src="images/icon/288e2f7ee804bff3fea9.svg" class="advantages__svg" alt="">
+                        <div class="advantages__text">
+                            <p class="uk-margin-remove advantages__title">Гарантию</p>
+                            <p class="uk-margin-remove advantages__subtitle">Гарантийный талон на любые работы</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="stock" class="stock">
+            <div class="uk-container">
+                <div class="uk-child-width-expand@m" uk-grid>
+                    <div class="uk-grid-item-match">
+                        <p class="uk-margin-remove stock__subtitle">Акция</p>
+                        <h3 class="uk-margin-remove stock__title">Скидка 20%</h3>
+                        <p class="uk-margin-remove stock__subtitle">при заказе с сайта</p>
+                    </div>
+                    <div class="uk-flex-center uk-flex-middle stock__block">
+                        <form action="" class="uk-flex uk-flex-between stock__form">
+                            <input type="tel" class="input input__stock js-phone" placeholder="Телефон">
+                            <button class="button button__stock">Заказать ремонт</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="examples" class="examples">
+            <div class="uk-container">
+                <h2 class="examples__heading">Примеры работ</h2>
+                <div uk-slider>
+                    <div class="uk-position-relative">
+                        <div class="uk-slider-container uk-light">
+                            <ul class="uk-slider-items uk-child-width-1-2@m">
+                                <li class="uk-flex uk-flex-middle examples__card">
+                                    <img src="images/photo/work-1.jpg" class="examples__img" alt="">
+                                    <p class="examples__text">Замена сливного насоса стиральной машины</p>
+                                </li>
+                                <li class="uk-flex uk-flex-middle examples__card">
+                                    <img src="images/photo/work-2.jpg" class="examples__img" alt="">
+                                    <p class="examples__text">Замена инвертора телевизора</p>
+                                </li>
+                                <li class="uk-flex uk-flex-middle examples__card">
+                                    <img src="images/photo/work-3.jpg" class="examples__img" alt="">
+                                    <p class="examples__text">Заправка фреоном холодильника</p>
+                                </li>
+                                <li class="uk-flex uk-flex-middle examples__card">
+                                    <img src="images/photo/work-4.jpg" class="examples__img" alt="">
+                                    <p class="examples__text">Замена ТЭНа посудомоечной машины</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="uk-hidden@s uk-light">
+                            <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                        </div>
+                        <div class="uk-visible@s">
+                            <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reviews" class="reviews">
+            <div class="uk-container">
+                <h2 class="reviews__heading">Отзывы о нашей работе</h2>
+                <div uk-slider>
+                    <div class="uk-position-relative">
+                        <div class="uk-slider-container uk-light">
+                            <ul class="uk-slider-items uk-child-width-1-2@m">
+                                <li class="uk-flex uk-flex-top reviews__card">
+                                    <div class="uk-flex uk-flex-left uk-flex-middle reviews__top">
+                                        <img src="images/photo/reviews-1.png" class="reviews__img" alt="">
+                                        <p class="uk-margin-remove reviews__name">Иван Шабанов</p>
+                                    </div>
+                                    <p class="reviews__text">Замечательный сервис! Выручили. Мастер приехал и починил стиральную машинку на дому сразу же. Запчасть была с собой. Все быстро, недорого и с гарантией. Рекомендую!!!</p>
+                                    <div class="uk-flex uk-flex-middle">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                    </div>
+                                </li>
+                                <li class="uk-flex uk-flex-top reviews__card">
+                                    <div class="uk-flex uk-flex-left uk-flex-middle reviews__top">
+                                        <img src="images/photo/reviews-2.png" class="reviews__img" alt="">
+                                        <p class="uk-margin-remove reviews__name">Ирина Аношкина</p>
+                                    </div>
+                                    <p class="reviews__text">Отдавали в ремонт кофемашину, починили за три дня. Обращаюсь не первый раз к ним, до этого отдавала пароустановку, также все быстро и доступно по цене. Рекомендую.</p>
+                                    <div class="uk-flex uk-flex-middle">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                    </div>
+                                </li>
+                                <li class="uk-flex uk-flex-top reviews__card">
+                                    <div class="uk-flex uk-flex-left uk-flex-middle reviews__top">
+                                        <img src="images/photo/reviews-3.png" class="reviews__img" alt="">
+                                        <p class="uk-margin-remove reviews__name">Илья Карпушкинн</p>
+                                    </div>
+                                    <p class="reviews__text">Посудомоечная машина вышла из строя, вода просто не нагревалась – оказался не рабочим ТЭН. Нагреватель заменили, сам бы я не справился. Цены на услуги устроили.</p>
+                                    <div class="uk-flex uk-flex-middle">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                    </div>
+                                </li>
+                                <li class="uk-flex uk-flex-top reviews__card">
+                                    <div class="uk-flex uk-flex-left uk-flex-middle reviews__top">
+                                        <img src="images/photo/reviews-4.png" class="reviews__img" alt="">
+                                        <p class="uk-margin-remove reviews__name">Ольга Мартынова</p>
+                                    </div>
+                                    <p class="reviews__text">Мой холодильник внезапно перестал морозить. Благодаря тому, что запчасть была на складе, ремонт сделали быстро – заменили термостат. Меня все устроило. Благодарю.</p>
+                                    <div class="uk-flex uk-flex-middle">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                        <img src="images/icon/star-svgrepo-com.svg" class="reviews__star" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="uk-hidden@s uk-light">
+                            <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                        </div>
+                        <div class="uk-visible@s">
+                            <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" class="contacts">
+            <div class="uk-container">
+                <div class="uk-child-width-expand@m" uk-grid>
+                    <div class="uk-grid-item-match">
+                        <h2 class="contacts__heading">Контакты</h2>
+                        <div class="uk-flex uk-flex-left uk-flex-middle uk-margin-medium-bottom">
+                            <img src="images/icon/794fcc28355191d3d1fa.svg" class="contacts__img" alt="">
+                            <p class="uk-margin-remove contacts__text">Выезд в любой район Москвы и Московской области</p>
+                        </div>
+                        <div class="uk-flex uk-flex-left uk-flex-middle uk-margin-medium-bottom">
+                            <img src="images/icon/b4e699a7f8b6e81d620b.svg" class="contacts__img" alt="">
+                            <p class="uk-margin-remove contacts__text">Головной офис: г. Москва, набережная Академика Туполева, 15</p>
+                        </div>
+                        <div class="uk-flex uk-flex-left uk-flex-middle uk-margin-medium-bottom">
+                            <img src="images/icon/phone.svg" class="contacts__img" alt="">
+                            <a href="tel: +74951378114" class="uk-margin-remove contacts__text">+7 495 137-81-14</a>
+                        </div>
+                        <a class="button button__contacts" href="#modal-center" uk-toggle>Связаться с нами</a>
+                    </div>
+                    <div class="contacts__map">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="uk-container">
+            <div class="uk-text-center" uk-grid>
+                <div class="uk-width-expand@m">
+                    <ul class="uk-list uk-flex uk-flex-between uk-flex-top footer__list">
+                        <li class="uk-margin-remove">
+                            <a href="#technic" class="footer__title" uk-scroll>Вид техники</a>
+                        </li>
+                        <li class="uk-margin-remove">
+                            <a href="#stock" class="footer__title" uk-scroll>Акция</a>
+                        </li>
+                        <li class="uk-margin-remove">
+                            <a href="#examples" class="footer__title" uk-scroll>Примеры работы</a>
+                        </li>
+                        <li class="uk-margin-remove">
+                            <a href="#reviews" class="footer__title" uk-scroll>Отзывы</a>
+                        </li>
+                        <li class="uk-margin-remove">
+                            <a href="#contacts" class="footer__title" uk-scroll>Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-width-auto@m uk-flex uk-flex-middle footer__block">
+                    <div class="uk-flex uk-flex-middle ">
+                        <a href="tel: +74951378114" class="footer__number">+7 495 137-81-14</a>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-text-center uk-margin-remove" uk-grid>
+                <div class="uk-padding-remove uk-width-expand@m">
+                    <ul class="uk-list uk-flex uk-flex-between uk-flex-middle">
+                        <li class="uk-margin-remove">
+                            <p href="#" class="footer__title">Сервисный центр © 2022</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="modal-center" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical modal">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <h3 class="modal__heading">Связаться с нами</h3>
+            <form action="" class="uk-flex uk-flex-between modal__form">
+                <input type="tel" class="input input__modal js-phone" placeholder="Телефон">
+                <button class="button button__modal">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/jQuery-3.6.0.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

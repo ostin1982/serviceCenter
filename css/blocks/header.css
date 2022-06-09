@@ -1,0 +1,117 @@
+.header {
+    padding-top: 15px;
+    background-color: var(--second-white);
+    position: relative;
+}
+
+.header__logo {
+    padding-right: 20px;
+}
+
+.header__text {
+    font-weight: bold;
+    font-size: var(--main-big);
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__close {
+    display: none;
+}
+
+.header__title {
+    font-size: var(--main-small);
+    color: var(--main-dark);
+}
+
+.header__title:hover {
+    opacity: 0.8;
+    color: var(--main-dark);
+    text-decoration: none;
+}
+
+.header__number {
+    color: var(--main-dark);
+    font-size: var(--main-large);
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    margin-bottom: 14px;
+}
+
+.header__number:hover {
+    color: var(--main-dark);
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 969px) {
+    .header__burger_active {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .header__close_active {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    .header__list_active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background-color: var(--main-white);
+        z-index: 10;
+        width: 100vw;
+    }
+
+    .header__title {
+        font-size: var(--main-large);
+        font-weight: 600;
+    }
+
+    .header__li {
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .header__logo {
+        width: 60px;
+        height: 60px;
+        padding-right: 10px;
+    }
+
+    .header__text {
+        font-size: var(--main-small);
+        margin-bottom: 0;
+    }
+
+    .header__burger_active {
+        margin-top: 10px;
+    }
+
+    .header__close_active {
+        margin-top: 10px;
+    }
+
+    .header__number {
+        font-size: var(--main-fonts);
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .header__block {
+        padding-left: 2px;
+    }
+}

@@ -1,0 +1,75 @@
+.technic {
+    padding: 100px 0 50px 0;
+}
+
+.technic__heading {
+    font-weight: 600;
+    font-size: var(--main-h2);
+    line-height: 1.16;
+}
+
+.technic__block {
+    display: flex;
+}
+
+.technic__block_none {
+    display: none;
+}
+
+.technic__card {
+    flex-direction: column;
+    padding: 40px 40px 0 40px;
+    cursor: pointer;
+    background: var(--second-white);
+}
+
+
+
+.technic__card:hover {
+    background: var(--main-gray);
+}
+
+.technic__card_color {
+    background: var(--main-gray);
+    cursor: auto;
+}
+
+.technic__title {
+    font-weight: 500;
+    font-size: var(--main-large);
+    line-height: 1.35;
+    color: var(--main-gray);
+    transition: 0.3s;
+    text-align: left;
+}
+
+.technic__title_color {
+    color: var(--second-gray);
+}
+
+.technic__card:hover > .technic__title {
+    color: var(--main-white);
+}
+
+.technic__img {
+    margin: 0 auto;
+}
+
+.technic__subtitle {
+    font-size: var(--main-small);
+    color: var(--second-gray);
+}
+
+.technic__subtitle_bold {
+    font-weight: bold;
+}
+
+.technic__form {
+    width: 100%;
+}
+
+@media screen and (max-width: 969px) {
+    .technic__title {
+        text-align: center;
+    }
+}

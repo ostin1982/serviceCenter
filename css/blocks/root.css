@@ -1,0 +1,19 @@
+:root {
+    /* Color */
+    --main-dark: #000000;
+    --second-dark: #32323b;
+    --main-white: #ffffff;
+    --second-white: #f5f4f3;
+    --main-gray: #454552;
+    --second-gray: #cacaca;
+
+    /* fonts */
+    --main-h1: 72px;
+    --main-h2: 46px;
+    --main-h3: 30px;
+    --main-h4: 24px;
+    --main-large: 20px;
+    --main-big: 18px;
+    --main-fonts: 16px;
+    --main-small: 14px;
+}

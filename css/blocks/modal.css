@@ -1,0 +1,16 @@
+.modal {
+    padding: 40px;
+}
+
+.modal__heading {
+    font-weight: 600;
+    font-size: var(--main-h2);
+    line-height: 1.16;
+    color: var(--second-dark);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.modal__form {
+    flex-direction: column;
+}

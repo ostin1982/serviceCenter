@@ -1,0 +1,37 @@
+.advantages {
+    padding: 50px 0 100px 0;
+}
+
+.advantages__heading {
+    color: var(--second-dark);
+    font-size: var(--main-h2);
+    line-height: 1.16;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.advantages__svg {
+    max-width: 89px;
+    width: 100%;
+}
+
+.advantages__text {
+    padding-left: 10px;
+}
+
+.advantages__title {
+    color: var(--second-dark);
+    font-size: var(--main-large);
+    line-height: 1.16;
+    font-weight: 700;
+    text-align: left;
+}
+
+.advantages__subtitle {
+    color: var(--second-dark);;
+    font-size: var(--main-fonts);
+    line-height: 1.47;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 10px;
+}

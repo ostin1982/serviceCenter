@@ -1,0 +1,34 @@
+.contacts {
+    padding: 50px 0;
+}
+
+.contacts__heading {
+    font-weight: 600;
+    font-size: var(--main-h2);
+    line-height: 1.16;
+    color: var(--second-dark);
+    margin-bottom: 50px;
+}
+
+.contacts__img {
+    width: 42px;
+    height: 42px;
+}
+
+.contacts__text {
+    font-size: var(--main-h4);
+    padding-left: 40px;
+    color: var(--second-dark);
+    text-decoration: none;
+}
+
+.contacts__text:hover {
+    color: var(--second-dark);
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 510px) {
+    .contacts__text {
+        font-size: var(--main-big);
+    }
+}

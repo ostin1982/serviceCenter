@@ -1,0 +1,58 @@
+.input {
+    width: 220px;
+    height: 58px;
+    padding: 0 20px;
+    font-size: var(--main-fonts);
+    border: 1px solid var(--second-gray); 
+}
+
+.input::placeholder {
+    color: var(--second-gray);
+}
+
+.input:focus,
+.input:active {
+    border: 1px solid var(--main-gray); 
+    outline: none;
+}
+
+.input__technic {
+    max-width: 100%;
+    height: 40px;
+    font-size: var(--main-small);
+    background-color: var(--second-gray);
+}
+
+.input__technic::placeholder {
+    color: var(--main-gray);
+}
+
+.input__stock {
+    width: 260px;
+    opacity: 0.4;
+    height: 70px;
+}
+
+.input__stock::placeholder {
+    color: var(--main-gray);
+    font-size: var(--main-big);
+    font-weight: 600;
+}
+
+.input__modal {
+    width: 100%;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 760px) {
+    .input__banner {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .input__stock {
+        width: 100%;
+    }
+}
