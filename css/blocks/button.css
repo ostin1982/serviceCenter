@@ -23,6 +23,10 @@
     font-size: var(--main-small);
 }
 
+.button__technic:hover {
+    background-color: var(--second-white);
+}
+
 .button__plus {
     border: none;
     color: var(--main-dark);

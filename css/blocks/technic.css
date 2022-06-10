@@ -44,7 +44,7 @@
 }
 
 .technic__title_color {
-    color: var(--second-gray);
+    color: var(--second-white);
 }
 
 .technic__card:hover > .technic__title {
@@ -57,7 +57,7 @@
 
 .technic__subtitle {
     font-size: var(--main-small);
-    color: var(--second-gray);
+    color: var(--second-white);
 }
 
 .technic__subtitle_bold {

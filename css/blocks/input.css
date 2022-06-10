@@ -20,7 +20,7 @@
     max-width: 100%;
     height: 40px;
     font-size: var(--main-small);
-    background-color: var(--second-gray);
+    background-color: var(--second-white);
 }
 
 .input__technic::placeholder {
@@ -33,8 +33,12 @@
     height: 70px;
 }
 
+.input__stock[type="tel"] {
+    background-color: var(--main-white);
+}
+
 .input__stock::placeholder {
-    color: var(--main-gray);
+    color: var(--main-dark);
     font-size: var(--main-big);
     font-weight: 600;
 }
@@ -46,6 +50,7 @@
 
 @media screen and (max-width: 760px) {
     .input__banner {
+        max-width: 100%;
         width: 100%;
         margin: 10px 0 0 0;
     }

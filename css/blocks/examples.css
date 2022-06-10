@@ -13,21 +13,21 @@
 
 .examples__card {
     background-color: var(--main-white);
-    padding: 20px;
+    max-height: 320px;
     height: 100%;
-    margin-left: 20px;
+    margin-left: 19px;
+    flex-direction: column;
 }
 
 .examples__img {
-    max-height: 160px;
-    height: 100%;
+    width: 100%;
 }
 
 .examples__text {
     font-size: var(--main-small);
     font-weight: 600;
     color: var(--main-dark);
-    padding: 0 40px;
+    text-align: center;
 }
 
 @media screen and (max-width: 969px) {
@@ -37,10 +37,6 @@
 }
 
 @media screen and (max-width: 510px) {
-    .examples__card {
-        flex-direction: column;
-    }
-
     .examples__text {
         padding: 0;
     }

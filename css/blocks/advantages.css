@@ -10,13 +10,17 @@
     padding-bottom: 30px;
 }
 
+.advantages__card {
+    padding-top: 10px;
+}
+
 .advantages__svg {
-    max-width: 89px;
+    max-width: 50px;
     width: 100%;
 }
 
 .advantages__text {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .advantages__title {
